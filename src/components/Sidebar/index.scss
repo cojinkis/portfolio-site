@@ -1,0 +1,149 @@
+
+.caption{
+    color: #f2622a;
+    font-size:x-large;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    // src: url('../../assets/fonts/helvetica-neu.ttf') format('ttf');
+
+}
+.nav-bar{
+    background: #181818;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    min-height: 500px;
+    .logo{
+        display: block;
+        padding: 50px 0;
+        &:hover {
+            background: none; // override hover background
+        }
+        img{
+            display: block;
+            margin: 8px auto;
+            width: 125px;
+            height: auto;
+
+            &.sub-logo{
+                width: 75px; 
+            }
+        }
+    }
+
+    ul {
+        position: absolute;
+        bottom: 40px;        // distance from the bottom
+        width: 100%;
+        display: flex;       // row layout
+        justify-content: center; // center horizontally
+        gap: 15px;           // space between icons
+        padding: 0;
+        list-style: none;
+
+        li {
+        margin: 0;
+
+        a {
+            color: #f2622a;
+            font-size: 32px;
+            svg{
+                transition: all 0.3s ease-out;
+
+            }
+            
+            &:hover {
+                color: #ffd700;
+                svg{
+                    color: #ffd700;
+
+                }
+            }
+        }
+        }
+    }
+
+    nav{
+        display: block;
+        text-align: center;
+        position: absolute;
+        height: 210px;
+        top: 50%;
+        margin-top: -120px;
+        width: 100%;
+        a{
+            font-size: 50px;
+            color: #4d4d4e;
+            display: block;
+            line-height: 100px;
+            height: 100px;
+            position: relative;
+            text-decoration: none;
+
+            i {
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover{
+                color: #f2622a;
+                svg{
+                    opacity: 0;
+                }
+                &::after{
+                    opacity: 1;
+                }
+            }
+
+            &:after{
+                content: '';
+                font-size: 9px;
+                position: absolute;
+                letter-spacing: 2px;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+            }
+
+            &:first-child{
+                &::after{
+                    content: 'HOME';
+                    font-size:large;
+                }
+            }
+        }
+
+        a.about-link{
+            &::after{
+                content: "ABOUT";
+                font-size:large;
+
+            }
+        }
+        a.contact-link{
+            &::after{
+                content: "CONTACT";
+                font-size:large;
+
+            }
+        }
+        a.experience-link{
+            &::after{
+                content: "CONTACT";
+                font-size:large;
+
+            }
+        }
+
+        a.active{
+            svg{
+                color:#f2622a
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.experience-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.8rem;  // slightly more padding
+  margin: 1.2rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .experience-title {
+      font-size: 2rem;  // really bigger
+      font-weight: 600;
+      color: #222;
+    }
+
+    .experience-date {
+      font-size: 1.2rem; // bigger
+      color: #777;
+    }
+  }
+
+  .experience-company {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;  // bigger
+    font-weight: 500;
+    color: #444;
+  }
+
+  .experience-description {
+    margin-top: 1rem;
+    font-size: 1.3rem;  // bigger
+    line-height: 1.8;
+    color: #555;
+  }
+
+  .experience-details {
+    margin-top: 1.5rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+
+    h4 {
+      font-size: 1.6rem;  // bigger
+      margin-bottom: 0.5rem;
+    }
+
+    .experience-learningGoals-list {
+      padding-left: 1.4rem;
+      list-style-type: disc;
+      color: #555;
+
+      li {
+        font-size: 1.3rem;  // bigger
+        margin-bottom: 0.6rem;
+      }
+    }
+  }
+}
+
+.experience-click-hint {
+  margin-top: 1rem;
+  font-size: 1.2rem;   // bigger hint text
+  color: #888;
+  text-align: right;
+  font-style: italic;
+  transition: color 0.2s ease;
+
+  .experience-card:hover & {
+    color: #555; // darken on hover
+  }
+}
+
+.experience-company-description {
+  font-size: 1.1rem;   // slightly smaller than company name
+  color: #666;
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  font-style: italic;  // optional for subtle emphasis
+}

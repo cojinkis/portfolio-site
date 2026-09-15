@@ -6,28 +6,6 @@ import "./index.scss";
 
 const experiences = [
   {
-    title: "STEM Instructor",
-    company: "Creative Encounters",
-    companyDescription: "provides STEM camps, programs, clubs, events and workshops for students in elementary and high school. Through fun, hands-on activities, we aim to ignite curiosity, boost confidence, and inspire the next generation of young innovators.",
-    date: "May 2025 – April 2026",
-    description:
-      "Developed a 40 hour Game Design course for youth aged grade 6-8. Utilized python as well as pygame in order to deliver the course, allowing for youth to develop general coding skills as well as create in depth games with custom art. Worked with a team of 10, creating professional interpersonal skills.",
-    learningGoals:[
-        {
-            goal:"To be able to create a thought-out, robust game design summer camp for grade 6-8's",
-            achievement:"Every week came with different minds. On average, I would say the campers left the camp with a working game, and overall a decent grasp on how to tweak and change certain mechanics of the game (e.g. the velocity of enemies, the damage/health of characters). My game design schedule worked well, however I did have to remove the flappy bird demo as it took too much time to complete and the campers would always rather work on their own games. Overall, I believe I was successful in achieving the goal I set for myself."
-        },
-        {
-            goal:"To be a consistent, strong leader to the campers. Seeing as I will be teaching Grade's 6-8, I must be a patient, yet firm, instructor, as this age group could pose a challenge due to a multitude of personal factors.",
-            achievement:"I was worried about this goal, as I had never worked with youth before. However, the past 4 months have shown me I am able to be a consistent, strong leader for the campers. I have not had any major issues in the camp room, and have not had to go to a guardian all camp season which, to me, shows that I am able to deescalate situations and also the campers have some level of respect for me where they will listen when needed. I have also felt confident in my abilities when I have reflected periodically throughout the season, as I check in with myself and how I'm doing every so often so I am always the best version of myself. Every week has been unique, and overall I have really enjoyed my time working at this job and instructing youth with the intention to increase interest in STEM."
-        },
-        {
-            goal:"Seeing as I have 9 other Instructors I will be working with throughout the summer, my third goal is teamwork. My goal is to be able to work with such a large group. I have historically worked in teams that reached the largest of 4, so working with a gorup of this size is new to me and I want to be able to get along with each individual on this team",
-            achievement:"I excelled at this goal. I get along great with all my co-instructors and coordinators, save a couple of co-instructors. I have formed close relationships with numerous of my co-isntructors, and can work well with all of them even if we are not the closest. I can say without a doubt that I have exceeded my own expectations with this goal."
-        }
-    ]
-  },
-  {
     title: "Program Coordinator",
     company: "Creative Encounters",
     companyDescription: "provides STEM camps, programs, clubs, events and workshops for students in elementary and high school. Through fun, hands-on activities, we aim to ignite curiosity, boost confidence, and inspire the next generation of young innovators.",
@@ -46,6 +24,28 @@ const experiences = [
         {
             goal:"My last goal is to create an inclusive, safe environment for my other coordinators as and the instructors. I want everyone to be excited to come into work every day, and know that this is a place where they can express themselves and voice their opinions. I do not want them to feel unheard and uncomfortable.",
             achievement:"There have been a couple concerns this summer between instructors. When I was faced with them, I quickly nipped it in the bud in order to ensure that the situation did not escalate and was addressed in a timely manner. We have also had numerous team bonding events (during work hours, specifically in May and June) and the team was always able to get along! There are so many different personalities on the team, and me and my coworkers have made an accepting, inclusive space for all members. Leadership also had to deal with a bigger situation involving campus security, and that was handled in a delicate manner while providing the necessary safety steps for the instructors involved. Due to this, I believe that I have helped to create a safe, inclusive environment for the instructors."
+        }
+    ]
+  },
+  {
+    title: "STEM Instructor",
+    company: "Creative Encounters",
+    companyDescription: "provides STEM camps, programs, clubs, events and workshops for students in elementary and high school. Through fun, hands-on activities, we aim to ignite curiosity, boost confidence, and inspire the next generation of young innovators.",
+    date: "May 2025 – April 2026",
+    description:
+      "Developed a 40 hour Game Design course for youth aged grade 6-8. Utilized python as well as pygame in order to deliver the course, allowing for youth to develop general coding skills as well as create in depth games with custom art. Worked with a team of 10, creating professional interpersonal skills.",
+    learningGoals:[
+        {
+            goal:"To be able to create a thought-out, robust game design summer camp for grade 6-8's",
+            achievement:"Every week came with different minds. On average, I would say the campers left the camp with a working game, and overall a decent grasp on how to tweak and change certain mechanics of the game (e.g. the velocity of enemies, the damage/health of characters). My game design schedule worked well, however I did have to remove the flappy bird demo as it took too much time to complete and the campers would always rather work on their own games. Overall, I believe I was successful in achieving the goal I set for myself."
+        },
+        {
+            goal:"To be a consistent, strong leader to the campers. Seeing as I will be teaching Grade's 6-8, I must be a patient, yet firm, instructor, as this age group could pose a challenge due to a multitude of personal factors.",
+            achievement:"I was worried about this goal, as I had never worked with youth before. However, the past 4 months have shown me I am able to be a consistent, strong leader for the campers. I have not had any major issues in the camp room, and have not had to go to a guardian all camp season which, to me, shows that I am able to deescalate situations and also the campers have some level of respect for me where they will listen when needed. I have also felt confident in my abilities when I have reflected periodically throughout the season, as I check in with myself and how I'm doing every so often so I am always the best version of myself. Every week has been unique, and overall I have really enjoyed my time working at this job and instructing youth with the intention to increase interest in STEM."
+        },
+        {
+            goal:"Seeing as I have 9 other Instructors I will be working with throughout the summer, my third goal is teamwork. My goal is to be able to work with such a large group. I have historically worked in teams that reached the largest of 4, so working with a gorup of this size is new to me and I want to be able to get along with each individual on this team",
+            achievement:"I excelled at this goal. I get along great with all my co-instructors and coordinators, save a couple of co-instructors. I have formed close relationships with numerous of my co-isntructors, and can work well with all of them even if we are not the closest. I can say without a doubt that I have exceeded my own expectations with this goal."
         }
     ]
   }

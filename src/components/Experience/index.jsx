@@ -9,7 +9,7 @@ const experiences = [
     title: "STEM Instructor",
     company: "Creative Encounters",
     companyDescription: "provides STEM camps, programs, clubs, events and workshops for students in elementary and high school. Through fun, hands-on activities, we aim to ignite curiosity, boost confidence, and inspire the next generation of young innovators.",
-    date: "May 2025 – Present",
+    date: "May 2025 – April 2026",
     description:
       "Developed a 40 hour Game Design course for youth aged grade 6-8. Utilized python as well as pygame in order to deliver the course, allowing for youth to develop general coding skills as well as create in depth games with custom art. Worked with a team of 10, creating professional interpersonal skills.",
     learningGoals:[
@@ -24,6 +24,28 @@ const experiences = [
         {
             goal:"Seeing as I have 9 other Instructors I will be working with throughout the summer, my third goal is teamwork. My goal is to be able to work with such a large group. I have historically worked in teams that reached the largest of 4, so working with a gorup of this size is new to me and I want to be able to get along with each individual on this team",
             achievement:"I excelled at this goal. I get along great with all my co-instructors and coordinators, save a couple of co-instructors. I have formed close relationships with numerous of my co-isntructors, and can work well with all of them even if we are not the closest. I can say without a doubt that I have exceeded my own expectations with this goal."
+        }
+    ]
+  },
+  {
+    title: "Program Coordinator",
+    company: "Creative Encounters",
+    companyDescription: "provides STEM camps, programs, clubs, events and workshops for students in elementary and high school. Through fun, hands-on activities, we aim to ignite curiosity, boost confidence, and inspire the next generation of young innovators.",
+    date: "May 2026 – Present",
+    description:
+      "Directly managed, trained, and mentored a team of 15 instructors in the planning and execution of STEM workshops and community initiatives. Reviewed safety protocols, budgets, and Ontario Curriculum relevancy of all activities run in the camp. Coordinated programming that reached 1,695 students from May - August",
+    learningGoals:[
+        {
+            goal:"As I am a team leader leading a team of 15 individuals, I wish to develop adequate oral communication skills to be able to deliver concise, clear instructions. I hope to not cause any confusion amongst the instructors, and strong oral communication skills will be extremely beneficial.",
+            achievement:"I feel as though I have been successful in my goal. This summer has been flowing extremely smoothly all-things-considered, and I believe it is in part due to my leadership. I provide the instructors with relevant information when needed, and I provide it in clear and concise manners. For the first two months of my terms, I developed a ton of oral speaking skills as I was working with the team in developing their camp sections. The past two months of July and August I have been floating through the camp rooms, providing necessary information when needed."
+        },
+        {
+            goal:"Since I am going to be leading a team of 15, leadership skills will be crucial. My goal here is to be a strong leader for the team; one they can look up to as well as depend on.",
+            achievement:"There are still two weeks left of summer camp as of writing this reflection, however the previous 6 weeks have been overall smooth given everything. Each summer camp section has run at least once, and they have all ran successfully which leads me to believe that I have successfully completed my goal. The Instructors will often come to me when they have to tell leadership something, which also reinforces my belief that I have been a dependable leader."
+        },
+        {
+            goal:"My last goal is to create an inclusive, safe environment for my other coordinators as and the instructors. I want everyone to be excited to come into work every day, and know that this is a place where they can express themselves and voice their opinions. I do not want them to feel unheard and uncomfortable.",
+            achievement:"There have been a couple concerns this summer between instructors. When I was faced with them, I quickly nipped it in the bud in order to ensure that the situation did not escalate and was addressed in a timely manner. We have also had numerous team bonding events (during work hours, specifically in May and June) and the team was always able to get along! There are so many different personalities on the team, and me and my coworkers have made an accepting, inclusive space for all members. Leadership also had to deal with a bigger situation involving campus security, and that was handled in a delicate manner while providing the necessary safety steps for the instructors involved. Due to this, I believe that I have helped to create a safe, inclusive environment for the instructors."
         }
     ]
   }
